@@ -10,8 +10,7 @@ _token_expires_at = 0
 
 
 def _load_private_key():
-    with open(Config.PRIVATE_KEY_PATH, "r") as f:
-        return f.read()
+    return Config.get_private_key()
 
 
 def _create_jwt():
