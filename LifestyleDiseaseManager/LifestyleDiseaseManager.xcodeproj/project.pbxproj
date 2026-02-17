@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1000001BBBBBBBB /* LifestyleDiseaseManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001BBBBBBBB /* LifestyleDiseaseManagerApp.swift */; };
+		B1000002BBBBBBBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002BBBBBBBB /* ContentView.swift */; };
+		B1000003BBBBBBBB /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003BBBBBBBB /* Patient.swift */; };
+		B1000004BBBBBBBB /* ExaminationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004BBBBBBBB /* ExaminationRecord.swift */; };
+		B1000005BBBBBBBB /* ReferenceValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000005BBBBBBBB /* ReferenceValues.swift */; };
+		B1000006BBBBBBBB /* HealthAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006BBBBBBBB /* HealthAssessment.swift */; };
+		B1000007BBBBBBBB /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007BBBBBBBB /* PatientListView.swift */; };
+		B1000008BBBBBBBB /* PatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000008BBBBBBBB /* PatientDetailView.swift */; };
+		B1000009BBBBBBBB /* RecordEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000009BBBBBBBB /* RecordEntryView.swift */; };
+		B100000ABBBBBBBB /* RecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B200000ABBBBBBBB /* RecordDetailView.swift */; };
+		B100000BBBBBBBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B200000BBBBBBBBB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2000000BBBBBBBB /* LifestyleDiseaseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifestyleDiseaseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2000001BBBBBBBB /* LifestyleDiseaseManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleDiseaseManagerApp.swift; sourceTree = "<group>"; };
+		B2000002BBBBBBBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2000003BBBBBBBB /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		B2000004BBBBBBBB /* ExaminationRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminationRecord.swift; sourceTree = "<group>"; };
+		B2000005BBBBBBBB /* ReferenceValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceValues.swift; sourceTree = "<group>"; };
+		B2000006BBBBBBBB /* HealthAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAssessment.swift; sourceTree = "<group>"; };
+		B2000007BBBBBBBB /* PatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
+		B2000008BBBBBBBB /* PatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailView.swift; sourceTree = "<group>"; };
+		B2000009BBBBBBBB /* RecordEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordEntryView.swift; sourceTree = "<group>"; };
+		B200000ABBBBBBBB /* RecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailView.swift; sourceTree = "<group>"; };
+		B200000BBBBBBBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3000001BBBBBBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4000001BBBBBBBB = {
+			isa = PBXGroup;
+			children = (
+				B4000002BBBBBBBB /* LifestyleDiseaseManager */,
+				B4000003BBBBBBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4000002BBBBBBBB /* LifestyleDiseaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2000001BBBBBBBB /* LifestyleDiseaseManagerApp.swift */,
+				B4000004BBBBBBBB /* Models */,
+				B4000005BBBBBBBB /* Views */,
+				B4000006BBBBBBBB /* Services */,
+				B4000007BBBBBBBB /* Data */,
+				B200000BBBBBBBBB /* Assets.xcassets */,
+			);
+			path = LifestyleDiseaseManager;
+			sourceTree = "<group>";
+		};
+		B4000003BBBBBBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2000000BBBBBBBB /* LifestyleDiseaseManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4000004BBBBBBBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2000003BBBBBBBB /* Patient.swift */,
+				B2000004BBBBBBBB /* ExaminationRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4000005BBBBBBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2000002BBBBBBBB /* ContentView.swift */,
+				B2000007BBBBBBBB /* PatientListView.swift */,
+				B2000008BBBBBBBB /* PatientDetailView.swift */,
+				B2000009BBBBBBBB /* RecordEntryView.swift */,
+				B200000ABBBBBBBB /* RecordDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4000006BBBBBBBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2000006BBBBBBBB /* HealthAssessment.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4000007BBBBBBBB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2000005BBBBBBBB /* ReferenceValues.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5000001BBBBBBBB /* LifestyleDiseaseManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6000001BBBBBBBB /* Build configuration list for PBXNativeTarget "LifestyleDiseaseManager" */;
+			buildPhases = (
+				B5000002BBBBBBBB /* Sources */,
+				B3000001BBBBBBBB /* Frameworks */,
+				B5000003BBBBBBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifestyleDiseaseManager;
+			productName = LifestyleDiseaseManager;
+			productReference = B2000000BBBBBBBB /* LifestyleDiseaseManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7000001BBBBBBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B5000001BBBBBBBB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B6000002BBBBBBBB /* Build configuration list for PBXProject "LifestyleDiseaseManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = B4000001BBBBBBBB;
+			productRefGroup = B4000003BBBBBBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5000001BBBBBBBB /* LifestyleDiseaseManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5000003BBBBBBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B100000BBBBBBBBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5000002BBBBBBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000001BBBBBBBB /* LifestyleDiseaseManagerApp.swift in Sources */,
+				B1000002BBBBBBBB /* ContentView.swift in Sources */,
+				B1000003BBBBBBBB /* Patient.swift in Sources */,
+				B1000004BBBBBBBB /* ExaminationRecord.swift in Sources */,
+				B1000005BBBBBBBB /* ReferenceValues.swift in Sources */,
+				B1000006BBBBBBBB /* HealthAssessment.swift in Sources */,
+				B1000007BBBBBBBB /* PatientListView.swift in Sources */,
+				B1000008BBBBBBBB /* PatientDetailView.swift in Sources */,
+				B1000009BBBBBBBB /* RecordEntryView.swift in Sources */,
+				B100000ABBBBBBBB /* RecordDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8000001BBBBBBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8000002BBBBBBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8000003BBBBBBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "生活習慣病管理";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LifestyleDiseaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8000004BBBBBBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "生活習慣病管理";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LifestyleDiseaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6000001BBBBBBBB /* Build configuration list for PBXNativeTarget "LifestyleDiseaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8000003BBBBBBBB /* Debug */,
+				B8000004BBBBBBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6000002BBBBBBBB /* Build configuration list for PBXProject "LifestyleDiseaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8000001BBBBBBBB /* Debug */,
+				B8000002BBBBBBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7000001BBBBBBBB /* Project object */;
+}
